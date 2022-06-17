@@ -1,0 +1,35 @@
+.imageBoxWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.portfolioCard {
+  width: 27rem;
+  border: none;
+  margin: 1rem;
+}
+
+.portfolioImg {
+  padding: 0.3rem;
+  border: none;
+}
+
+.cardTitle {
+  color: var(--primary-orange);
+  font-size: 2rem;
+}
+
+.cardText {
+  color: var(--primary-white);
+}
+
+.portfolioBTN {
+  margin: 1rem 0 0 0;
+  background: none;
+  font-size: 0.8rem;
+}
+
+.cardBody {
+  background: var(--primary-dark);
+}

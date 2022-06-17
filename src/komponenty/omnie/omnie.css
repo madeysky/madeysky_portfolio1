@@ -1,0 +1,23 @@
+.photoWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilePicture {
+  width: 16rem;
+  border-radius: 50%;
+  padding: 0.3rem;
+  border: 1px solid var(--primary-orange);
+}
+
+.aboutHeading {
+  color: var(--primary-orange);
+  text-transform: uppercase;
+}
+
+@media (max-width: 468px) {
+  .profilePicture {
+    width: 10rem;
+  }
+}

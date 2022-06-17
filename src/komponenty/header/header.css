@@ -1,0 +1,67 @@
+.headerWrapper {
+  position: relative;
+  background: rgba(0, 0, 0, 0.7) url(../../monitor1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-blend-mode: darken;
+}
+
+.mainInfo{
+    display: flex;
+    position: absolute;
+    position: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1; 
+}
+
+.mainInfo h1{
+    color: var(--primary-orange);
+    text-transform: uppercase;
+}
+
+@media(max-width:768px){
+    .mainInfo h1{
+        font-size: 1.7rem !important;
+    }
+}
+
+/* -----typed text----- */
+
+.typedText{
+    font-size: 2rem;
+    color: var(--primary-white);
+}
+
+@media(max-width:768px){
+    .typedText{
+        font-size: 1.3rem !important;
+    }
+}
+
+/* -----main offer button----- */
+
+.btnMainOffer{
+    border: 1px solid var(--primary-orange);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: .625rem .75rem .75rem .75rem;
+    color: var(--primary-white);
+    margin: 2rem;
+    text-decoration: none;
+}
+
+.btnMainOffer:hover {
+    text-decoration: none;
+    color: var(--primary-white);
+    background-color: var(--primary-orange);
+    transition: .2s ease-in-out;
+}
+
