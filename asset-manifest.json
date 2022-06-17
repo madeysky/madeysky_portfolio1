@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/madeysky_portfolio1/static/css/main.87a33f7d.css",
+    "main.js": "/madeysky_portfolio1/static/js/main.ba7e0dc8.js",
+    "static/js/937.4c2b7811.chunk.js": "/madeysky_portfolio1/static/js/937.4c2b7811.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/madeysky_portfolio1/static/js/787.1ed0c42c.chunk.js",
+    "static/media/monitor1.jpg": "/madeysky_portfolio1/static/media/monitor1.48e444c1eed0a6bf76ff.jpg",
+    "static/media/p85.png": "/madeysky_portfolio1/static/media/p85.07b26f2625625ab8d974.png",
+    "static/media/profilowe.jpeg": "/madeysky_portfolio1/static/media/profilowe.d8b404edd6dd8ca63f02.jpeg",
+    "static/media/fdm.png": "/madeysky_portfolio1/static/media/fdm.1073c7c19491a207be6f.png",
+    "index.html": "/madeysky_portfolio1/index.html",
+    "main.87a33f7d.css.map": "/madeysky_portfolio1/static/css/main.87a33f7d.css.map",
+    "main.ba7e0dc8.js.map": "/madeysky_portfolio1/static/js/main.ba7e0dc8.js.map",
+    "937.4c2b7811.chunk.js.map": "/madeysky_portfolio1/static/js/937.4c2b7811.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/madeysky_portfolio1/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.87a33f7d.css",
+    "static/js/main.ba7e0dc8.js"
+  ]
+}
