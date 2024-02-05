@@ -38,6 +38,7 @@
 
 .timelineBlockLeft {
   float: left;
+  text-align: right;
   direction: rtl;
 }
 
@@ -60,7 +61,7 @@
 
 .timelineContent h3 {
   margin-top: 0.3125rem;
-  color: var(--secondary-orange);
+  color: var(--primary-orange);
   font-weight: 900;
 }
 
@@ -84,5 +85,6 @@
     float: none;
     direction: ltr;
     width: 100%;
+    text-align: left;
   }
 }

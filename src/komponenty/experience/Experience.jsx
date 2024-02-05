@@ -10,15 +10,22 @@ export default function Experience() {
                 <div className="timelineBlock timelineBlockRight">
                     <div className="marker"></div>
                     <div className="timelineContent">
-                        <h3>2021-nadal</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo fugit cum deleniti quae rerum, dignissimos doloribus modi adipisci, voluptatum quos alias laudantium ducimus, eum maxime. Iure porro dolore aperiam tempora ducimus, voluptatem minima et quis esse sint corporis quas!</p>
+                        <h3>Kwiecień 2021 - trwa</h3>
+                        <p>InVivo Medical Clinic - administrowanie strony internetowej i prowadzenie mediów społecznościowych</p>
                     </div>
                 </div>
                 <div className="timelineBlock timelineBlockLeft">
                     <div className="marker"></div>
                     <div className="timelineContent">
-                        <h3>2021-2022</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam illo fugit cum deleniti quae rerum, dignissimos doloribus modi adipisci, voluptatum quos alias laudantium ducimus, eum maxime. Iure porro dolore aperiam tempora ducimus, voluptatem minima et quis esse sint corporis quas!</p>
+                        <h3>Październik 2021 - czerwiec 2022</h3>
+                        <p>Wyższa Szkoła Bankowa - studia podyplomowe Programista aplikacji internetowych. Junior Web Developer</p>
+                    </div>
+                </div>
+                <div className="timelineBlock timelineBlockRight">
+                    <div className="marker"></div>
+                    <div className="timelineContent">
+                        <h3>Czerwiec 2022 - trwa</h3>
+                        <p>Realizacja projektów dla klientów</p>
                     </div>
                 </div>
             </div>

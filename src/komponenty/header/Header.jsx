@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <div id="home" className="headerWrapper">
         <div className="mainInfo">
-            <h1>Tworzenie Stron Internetowych</h1>
+            <h1>Strony Internetowe</h1>
             <Typed className="typedText"
             strings={["Projektowanie Stron Internetowych", "Tworzenie Stron Internetowych", "Prowadzenie Mediów Społecznościowych"]}
             typeSpeed={40}

@@ -1,22 +1,41 @@
 import "./kontakt.css";
 
 import emailjs from '@emailjs/browser';
+import {useForm} from "react-hook-form";
+import {useState} from "react";
 
 export default function Kontakt() {
-
-    const serviceID = "service_ID";
+    const [succesMessage, setSuccesMessage] = useState("");
+    const { register, handleSubmit, errors } = useForm(); 
+    
+    const serviceID = "service_cyaivbj";
     const templateID = "template_ID";
-    const publicKEY = "-wXjPCK2RxA7r9tBx";
+    const publicKEY = "ARyM-hIUWq4WIkf_S";
 
-    const sendEmail = (e) => {
-        e.preventDefault();
+    const onSubmit = (data, r) => {
+        sendEmail (
+            serviceID,
+            templateID,
+            {
+                name: data.name,
+                phone: data.phone,
+                email: data.email,
+                subject: data.subject,
+                description: data.description,
+            },
+            publicKEY
+            )
+            r.target.reset();
+    }
 
-        emailjs.sendForm(serviceID, templateID, e.target, publicKEY)
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
+    const sendEmail = (serviceID, templateID, variables, publicKEY) => {
+        
+
+        emailjs.send(serviceID, templateID, variables, publicKEY)
+            .then(() => {
+                setSuccesMessage("Wiadomość wysłana!");
+            }).catch(err => console.error(`Coś poszło nie tak! ${err}`));
+            
     };
 
 
@@ -27,7 +46,7 @@ export default function Kontakt() {
                 <p>Wypełnij Formularz. Przybliż swoje wymagania. Skontaktuję się z Toba najszybciej jak to będzie możliwe.</p>
             </div>
             <div className="container">
-                <form onSubmit={sendEmail}>
+                <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="row">
                         <div className="col-md-6 col-xs-12">
                             {/* Name Input */}
@@ -36,8 +55,20 @@ export default function Kontakt() {
                                 className="formControl"
                                 placeholder="Imię i nazwisko"
                                 name="name"
+                                ref={
+                                    register({
+                                        required: "Proszę wprowadzić Imię i nazwisko opcjonalnie",
+                                        maxLenght: {
+                                            value: 20,
+                                            message: "Wprowadź krótszą nazwę"
+                                        }
+                                    })
+                                }
                             />
                             <div className="line"></div>
+                            <span className="error-message">
+                                {errors.name && errors.name.message}
+                            </span>
                             {/* Phone Input */}
                             <input
                                 type="text"

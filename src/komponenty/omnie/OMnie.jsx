@@ -1,5 +1,5 @@
 import "./omnie.css";
-import profilePicture from "../../profilowe.jpeg"
+import profilePicture from "../../profilowe.webp"
 
 
 
@@ -16,11 +16,15 @@ export default function OMnie() {
                 <div className="col-lg-6 com xm-12">
                     <h1 className="aboutHeading">O mnie</h1>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat aliquam iusto ratione, ad nulla neque voluptas nisi ullam at maxime aliquid sint? Asperiores impedit, dolores iste voluptas quae dolorum eius adipisci consequuntur voluptate accusantium omnis molestias quod dolore tenetur beatae voluptatibus vel, temporibus, atque saepe. Doloremque maiores nihil totam dolor aut fugiat saepe tempore distinctio voluptatum, suscipit ipsam, voluptate ipsum culpa quis nesciunt labore deserunt vero quia esse ipsa! Ducimus ipsa repudiandae delectus iure animi explicabo, quibusdam harum nostrum accusamus tempore asperiores beatae. Quod consequatur voluptates alias, itaque facere voluptate expedita ducimus reprehenderit excepturi, soluta necessitatibus quisquam eos? Dolor!
+                    Jestem freelancerem z pasją do projektowania stron internetowych i skutecznego prowadzenia mediów społecznościowych. Moja przygoda z branżą rozpoczęła się w kwietniu 2021 roku, kiedy to objąłem stanowisko administratora strony internetowej i Facebooka dla InVivo Medical Clinic. Choć wówczas nie posiadałem znacznej wiedzy, postanowiłem połączyć to zatrudnienie z pracą na etacie, aby zdobywać doświadczenie i poszerzać horyzonty.
+                    </p>
+                    <p>W październiku 2021 roku podjąłem decyzję o rozwinięciu moich umiejętności poprzez podjęcie studiów podyplomowych z Programowania Aplikacji Internetowych, gdzie zdobyłem solidne fundamenty w dziedzinie technologii. Przez ten czas poznałem kluczowe języki programowania, takie jak HTML5/CSS, JavaScript, a także framework ReactJS. Zdobyłem także umiejętność efektywnego korzystania z systemów zarządzania treścią (CMS), jak również praktyczne doświadczenie z narzędziami takimi jak Bootstrap czy preprocesory CSS, takie jak SCSS/SASS.
+                       Mój dorobek obejmuje współpracę z różnorodnymi branżami, takimi jak: interdyscyplinarne leczenie niepłodności, medycyna alternatywna oraz transport i spedycja. To doświadczenie pozwoliło mi zrozumieć unikalne potrzeby i wyzwania różnych sektorów, co umożliwia mi dostosowywanie moich usług do konkretnych oczekiwań klientów.
                     </p>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, fugiat aliquam iusto ratione, ad nulla neque voluptas nisi ullam at maxime aliquid sint? Asperiores impedit, dolores iste voluptas quae dolorum eius adipisci consequuntur voluptate accusantium omnis molestias quod dolore tenetur beatae voluptatibus vel, temporibus, atque saepe. Doloremque maiores nihil totam dolor aut fugiat saepe tempore distinctio voluptatum, suscipit ipsam, voluptate ipsum culpa quis nesciunt labore deserunt vero quia esse ipsa! Ducimus ipsa repudiandae delectus iure animi explicabo, quibusdam harum nostrum accusamus tempore asperiores beatae. Quod consequatur voluptates alias, itaque facere voluptate expedita ducimus reprehenderit excepturi, soluta necessitatibus quisquam eos? Dolor!
+                    Jako freelancer nieustannie dążę do doskonalenia moich umiejętności i śledzenia najnowszych trendów w projektowaniu stron internetowych i marketingu online. Jestem gotów podjąć nowe wyzwania, a moja determinacja i zaangażowanie pozwalają mi tworzyć innowacyjne i skuteczne rozwiązania dla moich klientów. Jeśli szukasz profesjonalisty, który połączy kreatywność z techniczną precyzją, chętnie podejmę współpracę, aby wspólnie osiągnąć cele Twojego projektu.
                     </p>
+                    
                 </div>
             </div>
 

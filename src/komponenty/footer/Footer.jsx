@@ -18,13 +18,13 @@ export default function Footer() {
                 <div className="row">
                     <div className="col-lg-4 col md-6 col-sm-6">
                         <div className="d-flex">
-                            <p>Gdańsk, ul. Długa 119, biuro 4</p>
+                            <p>madeysky</p>
                         </div>
                         <div className="d-flex">
-                            <a href="tel:123456789">+48 123456789</a>
+                            <a href="tel:+48503937297">+48 503 937 297</a>
                         </div>
                         <div className="d-flex">
-                            <p>abc@abc.com</p>
+                            <p>pawelrmadej@gmail.com</p>
                         </div>
                     </div>
                     <div className="col-lg-3 col-md-2 col-sm-6">

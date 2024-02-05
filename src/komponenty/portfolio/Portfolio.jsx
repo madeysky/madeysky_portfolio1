@@ -1,7 +1,7 @@
 import "./portfolio.css";
 
-import fdm from "../../obrazy/fdm.png";
-import p85 from "../../obrazy/p85.png";
+import wsz from "../../obrazy/wsz.webp";
+import ell from "../../obrazy/ell.webp";
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
@@ -16,25 +16,25 @@ export default function Portfolio() {
                 <div className="imageBoxWrapper">
 
                     <Card className="portfolioCard">
-                        <Card.Img className="portfolioImg" variant="top" src={fdm} />
+                        <Card.Img className="portfolioImg" variant="top" src={wsz} />
                         <Card.Body className="cardBody">
-                            <Card.Title className="cardTitle">"Fizjoterpia Dominika Madej"</Card.Title>
+                            <Card.Title className="cardTitle">"Wasza Szansa"</Card.Title>
                             <Card.Text className="cardText">
-                                Wizytówka indywidulanej praktyki fizjoterapeutycznej.
+                                Centrum ajurwedy.
                             </Card.Text>
-                            <Button href="https://madeysky.github.io/Strona-Dominiki/" target="_blank" className="btnMainOffer portfolioBTN" variant="primary">
+                            <Button href="https://madeysky.github.io/wasza-szansa/" target="_blank" className="btnMainOffer portfolioBTN" variant="primary">
                                 Odwiedź Stronę
                             </Button>
                         </Card.Body>
                     </Card>
                     <Card className="portfolioCard">
-                        <Card.Img className="portfolioImg" variant="top" src={p85} />
+                        <Card.Img className="portfolioImg" variant="top" src={ell} />
                         <Card.Body className="cardBody">
-                            <Card.Title className="cardTitle" >"Projekt 85"</Card.Title>
+                            <Card.Title className="cardTitle" >"ELLTRANS sp. z o.o. sp. k."</Card.Title>
                             <Card.Text className="cardText">
-                                Blog osobisty o tematyce sportowej i stylu życia.
+                                Przedsiębiorstwo transportowe.
                             </Card.Text>
-                            <Button href="https://madeysky.github.io/projekt_85/" target="_blank" className="btnMainOffer portfolioBTN">
+                            <Button href="https://www.elltrans.pl/" target="_blank" className="btnMainOffer portfolioBTN">
                                 Odwiedź Stronę
                             </Button>
                         </Card.Body>
